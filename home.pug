@@ -1,0 +1,31 @@
+
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+  style 
+    include ../static/style.css
+
+block content 
+  section#introSection
+    div.main Welcome to Dancing Studio 
+    div.submain Feel the vibe
+    div.subbermain Learn to dance in just 60 days
+  section#services 
+    h2 Our Services 
+    div.card 
+      h3 Personalised Training 
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae porro deleniti vero illo, eligendi atque consectetur commodi deserunt? Repellendus harum tempora quo enim modi numquam quam architecto sunt quasi!
+    div.card 
+      h3 Highly Trained Teachers
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptate doloribus porro temporibus vero nam libero quam odit incidunt animi reprehenderit modi deleniti rerum tempora veniam, corrupti at error numquam.
+    div.card 
+      h3 Learn Variety of Dance Styles
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, iste sed. Reprehenderit delectus a quisquam esse assumenda eligendi, quibusdam ipsum ut. Veniam alias eos in odio inventore tempora numquam. Quos?
+  section#end
+    p.first 25% OFF 
+    p.second ON ALL CLASSES 
+    p.third FOR LIMITED TIME 
+    p.fourth HURRY NOW!
